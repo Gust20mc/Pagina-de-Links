@@ -1,79 +1,81 @@
 *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-
- html{
-    --bg-color: #14213D;
-    --text-color:
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
- a{
-    text-decoration: none;
-    color: #0a1428;
-    
-  }
-  body{
-    background: var(--bg-color);
-    font-family: 'Roboto', sans-serif;
-  }
+html{
+  --bg-color: #14213D;
+  --text-color:
+}
+
+a{
+  text-decoration: none;
+  color: #0a1428;
   
-  h1{
-    font-size: 32px;
-    color: #E5E5E5;
-    margin-top: 24px;
-    margin-bottom: 8px;
-    
-  }
-  .username{
-    font-family: 'Roboto Mono', monospace;
-    color: #E5E5E5;
-    opacity: 0.7;
-    font-size: 16px;
-  }
-  .container{
-    text-align: center;
-    width: 300px;
-    margin: 60px auto;
-    
-  }
+}
+body{
+  background: var(--bg-color);
+  font-family: 'Roboto', sans-serif;
+}
+
+h1{
+  font-size: 32px;
+  color: #E5E5E5;
+  margin-top: 24px;
+  margin-bottom: 8px;
   
- img{
-    width: 100%;
-    border-radius: 50%;
-    width: 140px;
-    height: 140px;
-    padding: 2px;
-    border: grey solid 1px;
-  }
+}
+.username{
+  font-family: 'Roboto Mono', monospace;
+  color: #E5E5E5;
+  opacity: 0.7;
+  font-size: 16px;
+}
+.container{
+  text-align: center;
+  width: 300px;
+  margin: 60px auto;
   
-  ul{
-    list-style: none;
-    margin: 48px 0;
-  }
-  
- .lista{
-    height: 53px;
-    display: flex;
-    align-items: center;
-    font-size: 13px;
-    text-transform: uppercase;
-    justify-content: center;
-    background: #FCA311;
-    margin-bottom: 16px;
-    border-radius: 6px;
-    transition: background 300ms;
-  }
+}
+
+img{
+  width: 100%;
+  border-radius: 50%;
+  width: 140px;
+  height: 140px;
+  padding: 2px;
+  border: rgb(158, 158, 158) solid 1px;
+}
+
+ul{
+  list-style: none;
+  margin: 48px 0;
+}
+
+.lista{
+  height: 53px;
+  display: flex;
+  align-items: center;
+  font-size: 13px;
+  text-transform: uppercase;
+  justify-content: center;
+  background: #FCA311;
+  margin-bottom: 16px;
+  border-radius: 6px;
+  transition: background 300ms;
+}
 .lista:hover{
-    background:#ecb865;
-  }
-  
+  background:#ecb865;
+}
 
+#redes{
+  font-weight: 500;
+}
 
-  footer{
-    font-size: 11px;
-    color: #E5E5E5;
-    font-weight: 400;
-    opacity: 0.6;
-  }
+footer{
+  font-size: 11px;
+  color: #E5E5E5;
+  font-weight: 400;
+  opacity: 0.6;
+}
